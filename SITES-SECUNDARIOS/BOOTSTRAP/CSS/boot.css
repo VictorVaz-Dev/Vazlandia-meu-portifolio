@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+}
+
+header{
+    border-bottom: 5px solid bisque;
+}
+
+.navbar navbar-expand-lg bg-body-tertiary{
+    background-color: black;
+}
+
+.navbar-brand{
+    margin-right: 40%; 
+    font-size: 1.8em;
+    color:bisque;
+}
+
+#navbarNav a{
+    color: bisque;
+    font-size: 1.1em;
+    padding: 6px;
+    transition: .5s;
+
+}
+
+#navbarnav a:hover, 
+#navbarnav a.active{
+    border-radius: 20px;
+    background-color: bisque;
+    color: black;
+}
