@@ -28,7 +28,7 @@ header{
 }
 
 #navbarNav a{
-    color: blue;
+    color: #ffa500;
     font-size: 1.2em;
     padding: 6px;
     transition: .5s;
@@ -37,9 +37,9 @@ header{
 #navbarnav a:hover, 
 #navbarnav a.active{
     text-shadow: 0 0 5px #fff, 
-    0 0 10px #fff, 0 0 15px #0000ff, 
-    0 0 20px #0000ff, 0 0 25px #0000ff,
-    0 0 30px #0000ff !important; 
+    0 0 10px #fff, 0 0 15px #ffa500, 
+    0 0 20px #ffa500, 0 0 25px #ffa500,
+    0 0 30px #ffa500; 
 }
 
 #foto_meio{
@@ -59,10 +59,12 @@ header{
 }
 
 #subtitulo-principal{
-    text-shadow: 0 0 10px #fff, 
-    0 0 20px #fff, 0 0 40px #ffa500, 
+    text-shadow: 0 0 3px #fff, 
+    0 0 10px #fff, 0 0 40px #ffa500, 
     0 0 80px #ffa500, 0 0 160px #ffa500;
     color: #ffa500;
+    margin-top: -38vh;
+    margin-bottom: 35vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,8 +75,30 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 60px;
     margin-top: 10vh;
+}
+
+.section-principal a{
+    margin-top: 350px;
+    display: flex;
+    justify-content: center;
+    background-color: #0000ff;
+    color: #ffa500;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 102;
+    transition: .5s;
+}
+
+.section-principal a:hover{
+    background-color: #ffa500;
+    color: #0000ff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
 }
 
 .section-principal h1{
@@ -82,19 +106,24 @@ header{
     0 0 10px #fff, 0 0 15px #0000ff, 
     0 0 20px #0000ff, 0 0 25px #0000ff,
     0 0 30px #0000ff; 
+    background-color: transparent;
+    font-size: 2em;
     display: flex;
     justify-content: center;
-    text-decoration: underline;
     position: absolute;
-    z-index: 100;
+    z-index: 101;
+    margin: 0px 10px 300px 10px;
 }
 
 .section-principal p{
+    text-align: justify;
+    margin-top: 10%;
+    padding: 0 10px 0px 10px;
     position: absolute;
     z-index: 100;
-    margin: 5px;
-    background: #101010;
-    color: #0000ff;
+    margin: 0 10px 0 10px;
+    background: transparent;
+    color: #ffa500;
 }
 
 .section-principal div{
@@ -112,10 +141,6 @@ header{
 
 .section-principal div::before{
     content: "";
-    background-image: conic-gradient(
-        #0000ff 20deg,
-        transparent 120deg
-    );
     background-image: conic-gradient(
         #0000ff 20deg,
         transparent 120deg
