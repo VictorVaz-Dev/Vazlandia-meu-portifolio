@@ -1,5 +1,5 @@
-let motoazul = document.getElementById('moto-azul');
-let motolaranja = document.getElementById('moto-laranja');
+let motoazul = document.getElementById('motoazul');
+let motolaranja = document.getElementById('motolaranja');
 
 window.addEventListener('scroll', () => {
     let value = window.scrollY;
