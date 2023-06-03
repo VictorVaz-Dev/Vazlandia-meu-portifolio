@@ -1,0 +1,20 @@
+header{
+    background-color: #3d3939;
+}
+
+#navbarSupportedContent{
+    color: white;
+}
+
+#header-direito{
+    margin-left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 10px;
+}
+
+#header-direito a:hover{
+    background-color: gray;
+    padding: 30px;
+}
