@@ -12,44 +12,72 @@
     <header>
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">LOGO</a>
+          <img src="../ASSETS/ICONES/HEADER/icone-twitch.png" alt="icone da twitch" height="28px" style="margin: 0px 2px;"> <!--Icone da twitch do lado esquerdo-->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!--Começo da parte esquerda do header-->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Seguindo</a>
+                <a class="nav-link" aria-current="page" href="#" id="seguindo">Seguindo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Procurar</a>
+                <a class="nav-link" href="#" id="procurar">Procurar</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="../ASSETS/ICONES/HEADER/tres-pontos.png" alt="" height="20px">
+                  <img src="../ASSETS/ICONES/HEADER/pontos-verticais.png" alt="" height="16px" id="pontos-veticais">
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <ul class="dropdown-menu" id="dropdown">
+                  <p><a class="dropdown-header" href=""></a>GERAL</p>
+                  <li><a class="dropdown-item" href="#">Anunciantes</a></li>
+                  <li><a class="dropdown-item" href="#">Baixar Aplicativos</a></li>
+                  <li><a class="dropdown-item" href="#">Blog</a></li>
+                  <li><a class="dropdown-item" href="#">Desenvolvedores</a></li>
+                  <li><a class="dropdown-item" href="#">Empregos</a></li>
+                  <li><a class="dropdown-item" href="#">IGBD</a></li>
+                  <li><a class="dropdown-item" href="#">Imprensa</a></li>
+                  <li><a class="dropdown-item" href="#">Loot Cave - Loja de<br>produtos</a></li>
+                  <li><a class="dropdown-item" href="#">Parceiros</a></li>
+                  <li><a class="dropdown-item" href="#">Baixar Aplicativos</a></li>
+                  <li><a class="dropdown-item" href="#">Sobre</a></li>
+                  <li><a class="dropdown-item" href="#">Turbo</a></li>
+                  <li><a class="dropdown-item" href="#">Twicth Gift Card</a></li>
+                  <li><hr class="dropdown-divider bg-dark-subtle" style="margin: 20px;"></li>
+                  <p><a class="dropdown-header " href=""></a>AJUDA E JURÍDICO</p>
+                  <li><a class="dropdown-item" href="#">Ajuda</a></li>
+                  <li><a class="dropdown-item" href="#">Declaração de<br>acessibilidade</a></li>
+                  <li><a class="dropdown-item" href="#">Diretrizes da comunidade</a></li>
+                  <li><a class="dropdown-item" href="#">Opções de anúncio</a></li>
+                  <li><a class="dropdown-item" href="#">Política de cookies</a></li>
+                  <li><a class="dropdown-item" href="#">Política de privacidade</a></li>
+                  <li><a class="dropdown-item" href="#">Central de segurança</a></li>
+                  <li><a class="dropdown-item" href="#">Segurança</a></li>
+                  <li><a class="dropdown-item" href="#">Termos</a></li>
                 </ul>
               </li>
             </ul>
-    
-            <div class="input-group mb-2 d-flex" style="width: 356px;">
-              <input type="text" class="form-control " placeholder="Buscar" aria-label="Example text with button addon" aria-describedby="button-addon1">
-              <button class="btn btn-outline-secondary" type="button" id="button-addon1" style="background-color:#53535F61;border:none;"><img src="../ASSETS/ICONES/HEADER/procurar.png" alt="botao-procurar" height="34px"></button>
+            <!--Final da parte esquerda do header-->
+
+            <!--Começo da parte central do header-->
+            <div class="input-group d-flex" id="pesquisa">
+              <input type="text" class="form-control custom-color text-tertiary custom-input" id="pesquisa-input" placeholder="Buscar" aria-label="Example text with button addon" aria-describedby="button-addon1">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon1"><img src="../ASSETS/ICONES/HEADER/procurar.png" alt="botao-procurar" height="24px"></button>
             </div>
-    
+            <!--Final da parte central do header-->
+
+            <!--Começo da parte direita do header-->
             <div class="d-flex" id="header-direito">
               <a href=""><img src="../ASSETS/ICONES/HEADER/Coroa.png" alt="" height="20px"></a>
               <a href=""><img src="../ASSETS/ICONES/HEADER/Bau.png" alt="" height="20px"></a>
               <a href=""><img src="../ASSETS/ICONES/HEADER/Sms.png" alt="" height="20px"></a>
               <a href=""><img src="../ASSETS/ICONES/HEADER/Bits.png" alt="" height="20px"></a>
-              <button style="width:180px;font-size:16px;border:none;color: white;background-color:#53535F61;"><img src="../ASSETS/ICONES/HEADER/bateria.png" alt="icone-bateria" height="20px">Assista sem anúncio</button>
+              <button><img src="../ASSETS/ICONES/HEADER/bateria.png" alt="icone-bateria" height="20px">Assista sem anúncio</button>
               <img src="../ASSETS/ICONES/HEADER/conta.png" alt="conta-de-perfil" height="30px" style="border-radius: 20px;">
             </div>
+            <!--Final da parte direita do header-->
           </div>
         </div>
       </nav>
