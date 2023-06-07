@@ -86,8 +86,8 @@ body{
     height: 30px;
     display: flex;
     align-items: center;
-    margin-right: 320px;
-    margin-left: 410px;
+    margin-right: 420px;
+    margin-left: 520px;
 }
 
 #pesquisa button{
@@ -168,3 +168,49 @@ body{
     margin-right: 5px;
 }
 /*Final da parte direita do header*/
+
+/*Começo do carrosel*/
+#carouselExample{
+    margin-top: 50px;
+}
+
+    
+    #primeiro-carrosel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #segundo-carrosel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #terceiro-carrosel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #quarto-carrosel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #quinto-carrosel{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.card-carrosel{
+    background-color: black;
+    color: white;
+    width: 750px;
+    height: 300px;
+    border: none;
+}
+
+/*Final do carrosel*/
