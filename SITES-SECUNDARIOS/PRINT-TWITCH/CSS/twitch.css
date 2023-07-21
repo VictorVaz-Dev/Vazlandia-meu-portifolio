@@ -4,6 +4,7 @@ header{
     height: 50px;
     align-items: center;
     box-shadow:0 0 1px black, 0 0 1px black,0 0 1px black ,0 0 1px black;
+    position: relative;
 }
 
 body{
@@ -118,7 +119,7 @@ body{
     font-weight: 500;
 }
 
-#pesquisa-input:focus{
+#pesquisa input:focus{
     outline: none; 
     box-shadow: none; 
     border:4px solid #bf94ff; 
@@ -172,6 +173,7 @@ body{
 /*Começo do carrosel*/
 #carouselExample{
     margin-top: 50px;
+    position: relative;
 }
 
     
@@ -212,5 +214,52 @@ body{
     height: 300px;
     border: none;
 }
-
 /*Final do carrosel*/
+
+/*Começo dos Recomendados*/
+#recomendados{
+    margin: 50px 0px 0px 50px;
+}
+
+#paragrafo-recomendados{
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#link-recomendados{
+    text-decoration: none;
+    font-weight: bold;
+    color: #bf94ff;
+}
+
+#link-recomendados:hover{
+    color: #bf94ff;
+    text-decoration: underline;
+}
+
+.card-body{
+    background-color: #0e0e10;
+}
+
+.card-body p{
+    color: #555454;
+}
+
+#link-titulo{
+    text-decoration: none;
+    color: #a5a2a2;
+    background-color: #555454;
+}
+
+.card-body a{
+    text-decoration: none;
+    background-color: #0e0e10;
+    font-size: 0.7em;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20px;
+    color: #adadb8;
+}
+
+/*Final dos Recomendados*/
