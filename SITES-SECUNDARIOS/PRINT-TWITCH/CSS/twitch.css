@@ -217,7 +217,7 @@ body{
 /*Final do carrosel*/
 
 /*Começo dos Recomendados*/
-#recomendados{
+.recomendados{
     margin: 50px 0px 0px 50px;
 }
 
@@ -225,6 +225,7 @@ body{
     color: white;
     font-weight: bold;
     font-size: 1.2em;
+    margin-top: 50px;
 }
 
 #link-recomendados{
@@ -238,23 +239,27 @@ body{
     text-decoration: underline;
 }
 
+.card-recomendados{
+    width: 336px;
+    background-color: white;
+}
+
 .card-body{
     background-color: #0e0e10;
 }
 
-.card-body p{
-    color: #555454;
+.card-body h5{
+    padding-top: 10px;
+    color: white;
 }
 
-#link-titulo{
-    text-decoration: none;
-    color: #a5a2a2;
-    background-color: #555454;
+.card-body p{
+    color: #adadb8;
 }
 
 .card-body a{
     text-decoration: none;
-    background-color: #0e0e10;
+    background-color: white;
     font-size: 0.7em;
     font-weight: bold;
     padding: 5px;
