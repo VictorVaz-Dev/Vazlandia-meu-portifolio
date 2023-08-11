@@ -4,7 +4,6 @@ header{
     height: 50px;
     align-items: center;
     box-shadow:0 0 1px black, 0 0 1px black,0 0 1px black ,0 0 1px black;
-    position: relative;
 }
 
 body{
@@ -176,7 +175,6 @@ body{
     position: relative;
 }
 
-    
     #primeiro-carrosel{
         display: flex;
         justify-content: center;
@@ -207,13 +205,6 @@ body{
         align-items: center;
     }
 
-.card-carrosel{
-    background-color: black;
-    color: white;
-    width: 750px;
-    height: 300px;
-    border: none;
-}
 /*Final do carrosel*/
 
 /*Começo dos Recomendados*/
@@ -239,10 +230,6 @@ body{
     text-decoration: underline;
 }
 
-.titulo-live{
-    
-}
-
 .card-recomendados{
     width: 336px;
     background-color: white;
@@ -254,13 +241,18 @@ body{
 
 .card-body h5{
     margin-left: 60px;
-    margin-top: -60px;
-    padding-top: 10px;
+    margin-top: -40px;
+    font-size: large;
     color: white;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; 
-    width: 265px; 
+    width: 260px; 
+    cursor: pointer;
+}
+
+.card-body h5:hover{
+    color: #bf94ff;
 }
 
 .card-body p{
@@ -268,10 +260,11 @@ body{
 }
 
 .card-text{
-    margin-top: 0;
+    margin-top: 5px;
     margin-left: 60px;
     padding: 0;
     font-size: 0.9em;
+    cursor: pointer;
 }
 
 .card-text-game{
@@ -280,18 +273,13 @@ body{
     margin-bottom: 5px;
     padding: 0;
     font-size: 1em;
+    cursor: pointer;
 }
 
-.card-body a{
-    text-decoration: none;
-    background-color: #1F1F23;
-    font-size: 0.8em;
-    font-weight: bold;
-    margin: 0;
-    padding: 3px 8px;
-    border-radius: 20px;
-    color: #adadb8;
+.card-text-game:hover{
+    color: #bf94ff;
 }
+
 
 .div-pontos-verticais-recomendados{
     margin-top: -25px;
@@ -312,35 +300,16 @@ body{
     border-radius: 5px;
 }
 
+
+.hover-opacity li:hover{
+    opacity: 0.3;
+}
+
 .fotoperfil{
     border-radius: 100%;
     margin-top: 10px;
-}
-
-.opcoesmenu{
-    background-color: #18181b;
-    width: 250px;
-    height: 100px;
-    list-style: none;
-    box-shadow: 0 0 1px black, 0 0 1px black,0 0 1px black ,0 0 1px black;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.opcoesmenu li{
-    margin: 4px 16px;
-    font-size: 1.2rem;
-    padding: 0;
-    margin: 0;
-    font-weight: lighter;
-}
-
-.opcoesmenu li:hover{
-    background-color: rgb(128, 128, 128, 0.3);
-    border-radius: 5px;
+    height: 40px;
+    width: 40px;
 }
 
 .icone-recomendados{
@@ -350,9 +319,27 @@ body{
 .generos{
     display: flex;
     margin-left: 58px;
+   
 }
 
 .generos a{
     margin-right: 5px;
+    text-decoration: none;
+    background-color: #1F1F23;
+    font-size: 0.8em;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #adadb8;
+    padding: 2px 5px;
 }
+
+.generos a:hover{
+    background-color: rgb(128, 128, 128, 0.3);
+}
+
+.custom-hover{
+        background-color: lightgray;
+        color: red;
+}
+
 /*Final dos Recomendados*/
