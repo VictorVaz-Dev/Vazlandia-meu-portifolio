@@ -11,6 +11,93 @@ body{
     overflow-x: hidden;
 }
 
+/*Começo menu lateral do site*/
+nav.menu-lateral{
+    width: 240px;
+    height: 100vh;
+    background-color: #1f1f23;
+    box-shadow: 0 0 1px black, 0 0 1px black,0 0 1px black ,0 0 1px black;
+    padding: 40px 0px 40px 1%;
+    position: fixed;
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    overflow-x: hidden;
+    scrollbar-color: #DEDEE3;
+    scrollbar-width: 0.1em;
+}
+
+.para-voce{
+    color: #EFEFF1;
+    margin-top: -30px;
+    margin-left: -10px;
+    margin-bottom: 50px;
+    font-size: 1.2rem;
+}
+
+.btn-expandir{
+    margin-top: -78px;
+    margin-bottom: 10px;
+    margin-left: 175px;
+}
+
+nav.menu-lateral ul li{
+
+    margin-bottom: 6px;
+    padding: 0;
+}
+
+.item-menu{
+    display: flex;
+}
+
+.titulos-laterais{
+    flex-direction: column;
+    margin-left: 5px;
+}
+
+.btn-expandir i{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
+.btn-expandir i:hover{
+    background-color: rgb(128, 128, 128, 0.3);
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+
+.menu-lateral ul li h2{
+    color: #DEDEE3;
+    text-decoration: none;
+    font-size: 1rem;  
+    margin-bottom: 2px; 
+    margin:0;
+    padding: o;
+}
+
+.menu-lateral ul li h5{
+    color: #686770;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin:0;
+    padding:0;
+}
+
+.fotoperfil-lateral{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+}
+/*Final menu lateral do site*/
+
 /*Começo da parte esquerda do header*/
 #seguindo{
     color: #efeff1;
@@ -208,8 +295,13 @@ body{
 /*Final do carrosel*/
 
 /*Começo dos Recomendados*/
+.section-principal{
+    gap: 10px;
+    display: flex;
+}
+
 .recomendados{
-    margin: 50px 0px 0px 50px;
+    margin: 0px 0px 0px 50px;
 }
 
 #paragrafo-recomendados{
@@ -217,6 +309,7 @@ body{
     font-weight: bold;
     font-size: 1.2em;
     margin-top: 50px;
+    width: 100%;
 }
 
 #link-recomendados{
@@ -233,6 +326,12 @@ body{
 .card-recomendados{
     width: 336px;
     background-color: white;
+}
+
+.card-recomendados-geral{
+    width: 336px;
+    background-color: white;
+    margin-top: 95px;
 }
 
 .card-body{
