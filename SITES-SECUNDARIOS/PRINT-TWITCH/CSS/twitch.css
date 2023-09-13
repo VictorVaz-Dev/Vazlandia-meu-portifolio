@@ -143,6 +143,7 @@ ul{
     border: none;
     margin-top: -2px;
     box-shadow: 0 0 1px black, 0 0 1px black,0 0 1px black ,0 0 1px black;
+    height: 90vh;
 }
 
 #dropdown a{
