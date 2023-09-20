@@ -14,7 +14,7 @@ body{
 /*Começo menu lateral do site*/
 nav.menu-lateral{
     width: 240px;
-    height: 100vh;
+    height: 100%;
     background-color: #1f1f23;
     box-shadow: 0 0 1px black, 0 0 1px black,0 0 1px black ,0 0 1px black;
     padding: 40px 0px 40px 1%;
@@ -23,14 +23,14 @@ nav.menu-lateral{
     left: 0;
     z-index: 999;
     overflow-x: hidden;
-    scrollbar-color: #DEDEE3;
-    scrollbar-width: 0.1em;
+    scrollbar-color: black;
+    scrollbar-width: none;
 }
 
 .para-voce{
     color: #EFEFF1;
     margin-top: -30px;
-    margin-left: -10px;
+    margin-left: 5%;
     margin-bottom: 50px;
     font-size: 1.2rem;
 }
