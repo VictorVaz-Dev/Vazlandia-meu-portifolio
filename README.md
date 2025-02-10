@@ -1,1 +1,0 @@
-# Vazlandia-meu-portifólio
